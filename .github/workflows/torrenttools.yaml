@@ -3,19 +3,19 @@ on:
   workflow_dispatch:
     inputs:
       name:
-        description: Name of the torrent file
+        description: Yakuza (USA).7z
         required: true
-        default: Firefox Setup 122.0.1
+        default: Yakuza (USA).7z
       comment:
         description: Comment
         required: true
-        default: Firefox Setup 122.0.1 win64 en-US by torrent-webseed-creator
+        default: Yakuza (USA).7z by torrent-webseed-creator
       url:
-        description: URL of the file
+        description: https://dl.mprd.se/113LAJdnnkhry2Jfgs27jHaA/Playstation2/Yakuza%20(USA).7z
         required: true
-        default: https://download-installer.cdn.mozilla.net/pub/firefox/releases/122.0.1/win64/en-US/Firefox%20Setup%20122.0.1.exe
+        default: https://dl.mprd.se/113LAJdnnkhry2Jfgs27jHaA/Playstation2/Yakuza%20(USA).7z
       file_name:
-        description: File name of the file in the torrent
+        description: Yakuza (USA).7z
         required: true
         default: Firefox Setup 122.0.1.exe
       piece_size:
